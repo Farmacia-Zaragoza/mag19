@@ -2,8 +2,8 @@
 ini_set('max_execution_time', 0);
 ini_set('memory_limit', '-1');
 set_time_limit(0);
-$br = '</br>' ; 
-// while (@ob_end_flush());
+$br = '</br>'; 
+//while (@ob_end_flush());
 require_once ("/ssd/home/ser/zd/main/es/zdom/tst/magento/zd_main_chek/es/app/Mage.php");
 include_once "/brqx/tests/spyc/Spyc.php"											; // Yaml parser include
 
