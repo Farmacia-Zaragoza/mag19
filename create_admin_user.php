@@ -19,7 +19,7 @@
         $adminUserModel->setRoleIds( array( 1 ) )
             ->setRoleUserId( $adminUserModel->getUserId() )
             ->saveRelations();
-        echo 'Admin User created. ';// . EOL;
+        echo 'Admin User created. ' . EOL;
     } catch( Exception $e ) {
         echo $e->getMessage();
     }
